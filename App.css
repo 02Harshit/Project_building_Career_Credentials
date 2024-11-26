@@ -1,0 +1,135 @@
+body{
+  margin:0;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color:#1C1C1C;
+}
+.main-login{
+  margin:0;
+  text-align: center;
+  background-color: #E6C200;
+  width:95%;
+  padding:10px;
+  border-radius: 12px;
+}
+.field {
+  display:flex;
+  gap:10px;
+  align-items: center;
+}
+.field > input {
+  
+  border-radius: 10px;
+  font-size:15px;
+  padding:4px;
+  box-sizing: border-box;
+}
+.field > p{
+  font-weight: 600;
+  font-size:15px;
+  min-width: 10vh;
+}
+
+.submit-button{
+  background-color: #1C1C1C;
+  color:white;
+  border:2px #E6C200 solid;
+  border-radius:15px;
+  height:auto;
+  padding:5px;
+  margin-top:15px;
+  min-width:10vh;
+  min-height:5vh;
+  font-size: medium;
+  cursor:pointer;
+}
+.submit-button:hover {
+  scale: 1.1;
+}
+.register-now{
+  font-size: smaller;
+  color:black;
+  margin-bottom: -2px;
+}
+
+.status-switch{
+  border:none;
+  text-decoration: underline;
+}
+.status-switch:hover{
+  cursor:pointer;
+  color:blue;
+}
+
+.dashboard-container {
+  background-color:#E6C200;
+  border-radius: 20px;
+  
+  max-width: 95vh;
+  padding:20px;
+  margin: 0 auto;
+  font-family: roboto;
+}
+
+.logout-container {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding:5px;
+}
+
+.logout-button {
+  height:5vh;
+  width:13vh;
+  padding:5px;
+  border: 1px black solid;
+  border-radius: 12px;
+  background-color: rgb(223, 71, 71);
+  cursor: pointer;
+  font-size: 16px;
+  
+}
+
+.user-info {
+  font-size: 18px;
+}
+
+#register-message {
+  font-size:20px;
+  color:red;
+  text-decoration: underline;
+}
+
+.update-button {
+  background-color: #1C1C1C;
+  color:#E6C200;
+  border-radius: 10px;
+  padding:3px;
+  cursor: pointer;
+
+}
+
+.new-password-field {
+  border-radius: 9px;
+  font-size: 15px;
+  width:20vh;
+  height:3vh;
+}
+
+.dashboard-header > h1 {
+  font-size:40px;
+}
+
+.edit-button {
+  margin-left:5px;
+  background-image: url(edit.png);
+  background-size:cover;
+  background-color:transparent;
+  width:3vh;
+  height: 3vh;
+  background-blend-mode: darken;
+  cursor: pointer;
+  border:black;
+}
